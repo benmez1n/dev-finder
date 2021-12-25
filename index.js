@@ -55,7 +55,7 @@ getProfile = async (inputValue) => {
     }
     userName.textContent = name 
     userId.textContent = `@${login}` 
-    userJoinedAt.textContent = `joined  ${joinedAt.getDay()}  ${months[joinedAt.getMonth()]} ${joinedAt.getFullYear()}`
+    userJoinedAt.textContent = `joined  ${joinedAt.getDay()+1}  ${months[joinedAt.getMonth()]} ${joinedAt.getFullYear()}`
     userBio.textContent = bio ? bio : "This Profile has no bio"
     userRepos.textContent = public_repos
     userFollowers.textContent = followers
