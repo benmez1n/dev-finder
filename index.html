@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <title>Dev Finder</title>
+</head>
+<body class="light">
+    <div id="container">
+        <header>
+            <div>
+                <h1>devfinder</h1>
+                <div id="theme-switcher">
+                    <span>dark</span>
+                    <i class="fa fa-moon"></i>
+                </div>
+            </div>
+            <form>
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="search github username">
+                <button type="submit">search</button>
+            </form>
+        </header>
+        <main>
+            <div id="user-basic-info">
+                <div id="info">
+                    <img id = "user-img" 
+                    src = "" 
+                    alt = "user-img">
+                    <div id="user-name">
+                        <span id="name"></span>
+                        <span id="user-id"></span>
+                    </div>
+                    <p id="join-date"></p>
+                </div>
+                <p id="bio"></p>
+            </div>
+            <div id="profil-info">
+                <div>
+                    <span>repos</span>
+                    <span id="repos"></span>
+                </div>
+                <div>
+                    <span>followers</span>
+                    <span id="followers"></span>
+                </div>
+                <div>
+                    <span >following</span>
+                    <span id=following></span>
+                </div>
+            </div>
+            <div id="user-contact">
+                <div id="location">
+                    <i class="fa fa-map-marker-alt"></i>
+                    <span></span>
+                </div>
+                <div id="twitter">
+                    <i class="fab fa-twitter"></i>
+                    <span></span>
+                </div>
+                <div id="profil-link">
+                    <i class="fa fa-link"></i>
+                    <span></span>
+                </div>
+                <div id="company-name">
+                    <i class="fa fa-building"></i>
+                    <span></span>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
